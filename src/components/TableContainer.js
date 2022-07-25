@@ -1,6 +1,6 @@
 import { React } from "react";
-import { useTable, useFilters, useGlobalFilter, useSortBy } from "react-table";
 import { DefaultFilterForColumn } from "./Filters";
+import { useTable, useFilters, useGlobalFilter, useSortBy } from "react-table";
 
 export default function Table({ columns, data, sortBy }) {
   const {
